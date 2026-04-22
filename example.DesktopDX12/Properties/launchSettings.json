@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "example.DesktopDX12": {
+      "commandName": "Project",
+      "debugEngines": "managed,native"
+    }
+  }
+}

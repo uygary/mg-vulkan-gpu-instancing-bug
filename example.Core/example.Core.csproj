@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <PublishReadyToRun>false</PublishReadyToRun>
+    <TieredCompilation>false</TieredCompilation>
+    <AssemblyName>example.Core</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- <ProjectReference
+      Include="..\..\MonoGame\src\NuGetPackages\MonoGame.Framework\MonoGame.Framework.csproj" />
+    <ProjectReference
+      Include="..\..\MonoGame\src\NuGetPackages\MonoGame.Runtime.Linux.Vulkan\MonoGame.Runtime.Linux.Vulkan.csproj"
+    />
+    <ProjectReference
+      Include="..\..\MonoGame\src\NuGetPackages\MonoGame.Runtime.Mac.Vulkan\MonoGame.Runtime.Mac.Vulkan.csproj"
+    /> -->
+    <PackageReference Include="MonoGame.Framework.Native" Version="3.8.5-local.*">
+      <PrivateAssets>All</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+</Project>

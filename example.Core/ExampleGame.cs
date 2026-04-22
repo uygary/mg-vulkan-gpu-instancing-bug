@@ -55,7 +55,7 @@ public sealed class ExampleGame : Game
     private TerrainSceneRenderer _sceneRenderer = null!;
     private Matrix _view;
     private Matrix _projection;
-    private RenderMode _renderMode = RenderMode.Instanced;
+    private RenderMode _renderMode = RenderMode.Baseline;
     private int _instanceCountIndex = 2;
 
     private enum RenderMode

@@ -6,7 +6,7 @@
     <TieredCompilation>false</TieredCompilation>
     <ApplicationManifest>app.manifest</ApplicationManifest>
     <AssemblyName>example</AssemblyName>
-    <MonoGamePlatform>DesktopVK</MonoGamePlatform>
+    <MonoGamePlatform>WindowsDX12</MonoGamePlatform>
   </PropertyGroup>
   <ItemGroup>
     <!-- <ProjectReference
@@ -19,7 +19,7 @@
     /> -->
     <PackageReference Include="MonoGame.Framework.Content.Pipeline" Version="3.8.5-preview.4" />
     <PackageReference Include="MonoGame.Framework.Native" Version="3.8.5-local.*" />
-    <PackageReference Include="MonoGame.Runtime.Windows.Vulkan" Version="3.8.5-local.*" />
+    <PackageReference Include="MonoGame.Runtime.Windows.DX12" Version="3.8.5-local.*" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\example.Core\example.Core.csproj" />

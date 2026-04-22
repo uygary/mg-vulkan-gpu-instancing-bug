@@ -1,6 +1,8 @@
-﻿<Solution>
+<Solution>
   <Folder Name="/Platforms/">
+    <Project Path="example.DesktopDX12/example.DesktopDX12.csproj" />
     <Project Path="example.DesktopVK/example.DesktopVK.csproj" />
   </Folder>
   <Project Path="example.Content/example.Content.csproj" />
+  <Project Path="example.Core/example.Core.csproj" />
 </Solution>

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "example.DesktopVK": {
+      "commandName": "Project",
+      "debugEngines": "managed,native"
+    }
+  }
+}
