@@ -17,7 +17,7 @@
     <ProjectReference
       Include="..\..\MonoGame\src\NuGetPackages\MonoGame.Runtime.Mac.Vulkan\MonoGame.Runtime.Mac.Vulkan.csproj"
     /> -->
-    <PackageReference Include="MonoGame.Framework.Content.Pipeline" Version="3.8.5-preview.4" />
+    <PackageReference Include="MonoGame.Framework.Content.Pipeline" Version="3.8.5-preview.*" />
     <PackageReference Include="MonoGame.Framework.Native" Version="3.8.5-local.*" />
     <PackageReference Include="MonoGame.Runtime.Windows.Vulkan" Version="3.8.5-local.*" />
   </ItemGroup>
